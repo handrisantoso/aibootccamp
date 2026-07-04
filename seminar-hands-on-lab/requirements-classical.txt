@@ -6,4 +6,4 @@ matplotlib>=3.7.0
 opencv-python>=4.8.0
 pillow>=10.0.0
 # optional, only for the Kaggle dataset route:
-# kaggle>=1.6.0
+kaggle>=1.6.0
