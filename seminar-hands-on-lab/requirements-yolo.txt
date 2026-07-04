@@ -1,0 +1,4 @@
+# Part 3: YOLO11 object detection.
+# ultralytics pulls in torch + torchvision + opencv automatically.
+# Runs on CPU (fine for images); a GPU makes video/training much faster.
+ultralytics>=8.3.0

@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Packaging Material Policy",
+    "text": "All consumer packaging must be at least 70% recyclable. Non-recyclable plastic films are prohibited on retail products sold after 2025. Paper and cardboard must carry the FSC certification mark."
+  },
+  {
+    "title": "Labeling Requirements",
+    "text": "Every product package must display: product name, net weight in metric units, manufacturer name and address, expiry date, and a scannable barcode. Nutritional labels are mandatory for food items."
+  },
+  {
+    "title": "Recycling Symbol Rules",
+    "text": "The recycling triangle with a resin identification code (1-7) must be printed on all plastic components. A missing or unreadable recycling symbol makes the packaging non-compliant."
+  },
+  {
+    "title": "Language and Localization",
+    "text": "Products sold in Indonesia must show all mandatory information in Bahasa Indonesia. English-only labels are not compliant for regulated categories such as food, cosmetics, and pharmaceuticals."
+  },
+  {
+    "title": "Hazard and Safety Marks",
+    "text": "Products containing flammable or corrosive substances must display the corresponding GHS hazard pictogram and a safety warning. Absence of a required hazard mark is a critical compliance failure."
+  }
+]

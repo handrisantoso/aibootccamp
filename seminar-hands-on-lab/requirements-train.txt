@@ -1,0 +1,10 @@
+# Parts 5-8: LoRA fine-tuning Qwen2-VL. Needs a GPU (16 GB+ VRAM).
+# Pin torch to your CUDA version if needed: https://pytorch.org/get-started/locally/
+torch>=2.2.0
+transformers>=4.45.0
+accelerate>=0.34.0
+peft>=0.13.0
+bitsandbytes>=0.43.0
+datasets>=2.20.0
+qwen-vl-utils>=0.0.8
+pillow>=10.0.0

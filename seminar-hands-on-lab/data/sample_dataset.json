@@ -1,0 +1,44 @@
+[
+  {
+    "image": "images/receipt_001.jpg",
+    "conversations": [
+      {"role": "user", "content": "Extract this receipt as JSON with merchant, date, total, currency."},
+      {"role": "assistant", "content": "{\"merchant\": \"Toko Sumber Rejeki\", \"date\": \"2026-03-14\", \"total\": 84500, \"currency\": \"IDR\"}"}
+    ]
+  },
+  {
+    "image": "images/receipt_002.jpg",
+    "conversations": [
+      {"role": "user", "content": "Extract this receipt as JSON with merchant, date, total, currency."},
+      {"role": "assistant", "content": "{\"merchant\": \"Warung Ibu Ani\", \"date\": \"2026-03-15\", \"total\": 32000, \"currency\": \"IDR\"}"}
+    ]
+  },
+  {
+    "image": "images/receipt_003.jpg",
+    "conversations": [
+      {"role": "user", "content": "Extract this receipt as JSON with merchant, date, total, currency."},
+      {"role": "assistant", "content": "{\"merchant\": \"Indomaret Cabang Depok\", \"date\": \"2026-02-28\", \"total\": 127300, \"currency\": \"IDR\"}"}
+    ]
+  },
+  {
+    "image": "images/receipt_004_blurry.jpg",
+    "conversations": [
+      {"role": "user", "content": "Extract this receipt as JSON with merchant, date, total, currency."},
+      {"role": "assistant", "content": "{\"merchant\": \"Alfamart\", \"date\": null, \"total\": 55000, \"currency\": \"IDR\"}"}
+    ]
+  },
+  {
+    "image": "images/not_a_receipt_cat.jpg",
+    "conversations": [
+      {"role": "user", "content": "Extract this receipt as JSON with merchant, date, total, currency."},
+      {"role": "assistant", "content": "{\"merchant\": null, \"date\": null, \"total\": null, \"currency\": null, \"note\": \"image is not a receipt\"}"}
+    ]
+  },
+  {
+    "image": "images/receipt_005.jpg",
+    "conversations": [
+      {"role": "user", "content": "Extract this receipt as JSON with merchant, date, total, currency."},
+      {"role": "assistant", "content": "{\"merchant\": \"Superindo\", \"date\": \"2026-03-01\", \"total\": 214750, \"currency\": \"IDR\"}"}
+    ]
+  }
+]

@@ -1,0 +1,21 @@
+# Part 4 - Package a prompt as a reusable Ollama model.
+#
+# Build:   ollama create receipt-reader -f Modelfile
+# Run:     ollama run receipt-reader ./../data/images/receipt.jpg
+#
+# This bakes a specialised system prompt + parameters into a shareable,
+# version-controllable model - the highest rung you can reach with NO training.
+
+FROM llava:7b
+
+# Deterministic output for extraction tasks.
+PARAMETER temperature 0.0
+PARAMETER top_p 0.9
+
+SYSTEM """
+You are a receipt-extraction assistant.
+For any receipt image, return ONLY valid JSON with these keys:
+  merchant (string), date (YYYY-MM-DD string), total (number),
+  currency (string), line_items (array of {name, price}).
+Use null for anything you cannot read. Never invent values. No prose.
+"""
